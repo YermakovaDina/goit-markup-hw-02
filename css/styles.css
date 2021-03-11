@@ -1,3 +1,118 @@
+/* основной цвет текста - color: #212121; */
+/* цвет акцент - color: #2196F3; */
+/* вторичный цвет текста - color: #757575; */
+/* вторичный цвет фона - background: #E5E5E5; */
+
 body {
-  background-color: white;
+  background-color: #ffffff;
+  color: #212121;
+  font-family: Roboto;
+  font-style: normal;
 }
+
+.logo-nav {
+  color: #000000;
+  position: absolute;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+/* nav */
+.site-nav {
+  list-style: none;
+}
+
+.site-nav .site-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+  text-decoration: none;
+}
+
+.site-nav .site-link:hover,
+.site-nav .siye-link:focus {
+  color: #2196f3;
+}
+
+.link-stydio {
+  position: absolute;
+  width: 49px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+}
+
+.link-portfolio {
+  position: absolute;
+  width: 77px;
+  height: 16px;
+  left: 552px;
+  top: 32px;
+}
+
+.link-contacts {
+  position: absolute;
+  width: 68px;
+  height: 16px;
+  left: 679px;
+  top: 32px;
+}
+
+.contact-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  list-style: none;
+  color: #757575;
+}
+
+.contact-nav .contact-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
+.contact-nav .contact-link:hover,
+.contact-nav .contact-link:focus {
+  color: #2196f3;
+}
+
+.link-email {
+  position: absolute;
+  width: 135px;
+  height: 16px;
+  left: 1078px;
+  top: 32px;
+}
+
+.link-telephone {
+  position: absolute;
+  width: 122px;
+  height: 16px;
+  left: 1263px;
+  top: 32px;
+}
+
+/*.list {
+  list-style: none;
+}*/
