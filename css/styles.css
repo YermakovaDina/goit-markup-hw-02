@@ -25,11 +25,15 @@ body {
   line-height: 1, 19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #000000;
+  color: #2196f3;
 }
 
 .logo {
-  color: #2196f3;
+  color: #000000;
+}
+
+.logo-other {
+  color: #ffffff;
 }
 
 /* nav */
@@ -201,4 +205,25 @@ body {
 /*подвал*/
 .footer {
   background: #2f303a;
+}
+
+.footer .contact-list {
+  list-style: none;
+}
+
+.contact-list {
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+}
+.contact-list .info:hover,
+.contact-list .info:focus {
+  color: var(--accent-color);
+}
+
+.info {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.color-add {
+  color: #ffffff;
 }
