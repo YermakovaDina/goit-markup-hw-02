@@ -6,12 +6,13 @@
   --primery-text-color: #212121;
   --second-test-color: #757575;
   --accent-color: #2196f3;
+  --light-color: #ffffff;
   --text-size: 14px;
   --dark-bg-color: #2f303a;
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--light-color);
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: var(--text-size);
@@ -25,7 +26,7 @@ body {
   line-height: 1, 19;
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo {
@@ -33,7 +34,7 @@ body {
 }
 
 .logo-other {
-  color: #ffffff;
+  color: var(--light-color);
 }
 
 /* nav */
@@ -41,7 +42,7 @@ body {
 .contact-nav {
   list-style: none;
 }
-.site-nav .site-link {
+.site-link {
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
@@ -78,7 +79,7 @@ body {
   top: 32px;
 }
 
-.contact-nav .contact-link {
+.contact-link {
   font-weight: 500;
   line-height: 1, 14;
   letter-spacing: 0.02em;
@@ -118,16 +119,16 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--light-color);
 }
 
-.butten-hero {
+.button-hero {
   background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
-.title-butten {
+.title-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1, 87;
@@ -135,7 +136,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--light-color);
 }
 
 /*особенности*/
@@ -209,6 +210,7 @@ body {
 
 .footer .contact-list {
   list-style: none;
+  font-style: normal;
 }
 
 .contact-list {
@@ -225,5 +227,54 @@ body {
   text-decoration: none;
 }
 .color-add {
-  color: #ffffff;
+  color: var(--light-color);
+}
+
+/*Портфолио*/
+.buttons-filter {
+  list-style: none;
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1, 62;
+  letter-spacing: 0.03em;
+  color: var(--primery-text-color);
+}
+
+.filter-all {
+  cursor: pointer;
+  background: #2196f3;
+  border-radius: 4px;
+  color: var(--light-color);
+}
+
+.filter-site,
+.filter-application,
+.filter-design,
+.filter-marceting {
+  cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: var(--primery-text-color);
+}
+
+.progect-portfolio {
+  list-style: none;
+}
+
+.progect > h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
+}
+
+.progect > p {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--second-test-color);
 }
