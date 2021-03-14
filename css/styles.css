@@ -236,16 +236,7 @@ body {
   color: var(--primery-text-color);
 }
 
-.buttons-filter .filter-all:hover,
-.buttons-filter .filter-all:focus,
-.buttons-filter .filter-site:hover,
-.buttons-filter .filter-site:focus,
-.buttons-filter .filter-application:hover,
-.buttons-filter .filter-application:focus,
-.buttons-filter .filter-design:hover,
-.buttons-filter .filter-design:focus,
-.buttons-filter .filter-marceting:hover,
-.buttons-filter .filter-marceting:focus {
+.buttons-filter .filter {
   cursor: pointer;
   background: #2196f3;
   border-radius: 4px;
@@ -260,7 +251,6 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
-  letter-spacing: 0.06em;
   color: var(--primery-text-color);
 }
 
