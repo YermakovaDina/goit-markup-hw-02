@@ -213,50 +213,41 @@ body {
 }
 
 /*Портфолио*/
-.buttons-filter {
+.buttons {
   list-style: none;
-}
-
-.filter {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.03em;
-  color: var(--primery-text-color);
 }
 
-.filter-all,
-.filter-site,
-.filter-application,
-.filter-design,
-.filter-marceting {
+.buttons .filter-dif,
+.buttons .filter:hover,
+.buttons .filter:focus {
   cursor: pointer;
-  background: var(--light-bg-color);
-  border-radius: 4px;
-  color: var(--primery-text-color);
-}
-
-.buttons-filter .filter {
-  cursor: pointer;
-  background: #2196f3;
-  border-radius: 4px;
+  background: var(--accent-color);
   color: var(--light-color);
 }
 
-.progect-portfolio {
-  list-style: none;
-}
-
-.progect > h2 {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
+.filter {
+  background: var(--light-bg-color);
   color: var(--primery-text-color);
 }
 
-.progect p {
+.progect {
+  list-style: none;
+}
+
+.page p {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
   color: var(--second-test-color);
+}
+.page h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primery-text-color);
 }
